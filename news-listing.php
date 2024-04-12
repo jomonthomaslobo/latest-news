@@ -1,12 +1,12 @@
 <?php
-/* Plugin Name: Recent News
+/* Plugin Name: Latest News
  * Plugin URI: https://example.com/plugins/recent-news/
  * Description: Display the latest news articles on your website.
  * Version: 1.0
  * Author: Jomon Thomas Lobo
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: recent-news
+ * Text Domain: Latest-news
  */
 
 // Exit if accessed directly
