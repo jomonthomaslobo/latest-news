@@ -6,7 +6,7 @@
  * Author: Jomon Thomas Lobo
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: aidsys-atest-news
+ * Text Domain: 12_08-39-12_latest-news
  */
 
 // Exit if accessed directly
