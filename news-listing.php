@@ -1,12 +1,12 @@
 <?php
-/* Plugin Name: Latest News
+/* Plugin Name: Aidsys Latest News
  * Plugin URI: https://example.com/plugins/recent-news/
  * Description: Display the latest news articles on your website.
  * Version: 1.0
  * Author: Jomon Thomas Lobo
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: Latest-news
+ * Text Domain: aidsys-atest-news
  */
 
 // Exit if accessed directly
@@ -17,8 +17,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Enqueue scripts and styles
 function custom_news_ticker_scripts() {
     wp_enqueue_script('jquery');
-    wp_enqueue_style('news-ticker-style', plugin_dir_url(__FILE__) . 'css/news-ticker.css');
-    wp_enqueue_script('news-ticker-script', plugin_dir_url(__FILE__) . 'js/news-ticker.js', array('jquery'), null, true);
+    wp_enqueue_style('news-ticker-style', plugin_dir_url(__FILE__) . 'css/news-ticker.css', array(), '1.0.0');
+    wp_enqueue_script('news-ticker-script', plugin_dir_url(__FILE__) . 'js/news-ticker.js', array('jquery'), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'custom_news_ticker_scripts');
 /**
