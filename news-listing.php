@@ -6,7 +6,7 @@
  * Author: Jomon Thomas Lobo
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: 12_08-39-12_latest-news
+ * Text Domain: aidsys_latest-news
  */
 
 // Exit if accessed directly
@@ -20,7 +20,7 @@ function custom_news_ticker_scripts() {
     wp_enqueue_style('news-ticker-style', plugin_dir_url(__FILE__) . 'css/news-ticker.css', array(), '1.0.0');
     wp_enqueue_script('news-ticker-script', plugin_dir_url(__FILE__) . 'js/news-ticker.js', array('jquery'), '1.0.0', true);
 }
-add_action('wp_enqueue_scripts', 'custom_news_ticker_scripts');
+add_action('wp_enqueue_scripts', 'aidsys_news_ticker_scripts');
 /**
  *  Register the "news" custom post type
  */
