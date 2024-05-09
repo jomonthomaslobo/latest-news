@@ -7,7 +7,7 @@
  * Author URI: https://jomonthomaslobo.github.io/
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: aidsys_latest-news
+ * Text Domain: aidsys-latest-news
  */
 
 // Exit if accessed directly
